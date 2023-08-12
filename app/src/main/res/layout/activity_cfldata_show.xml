@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.DSBA.CFLDataShowActivity">
+
+    <TextView
+        android:id="@+id/bandwidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bandwidth"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/datasize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="energy efficiency"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/energyConsumed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Battery consumption"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/taskQueue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="task queueing : "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="video data size : "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/battery_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Net Data Size :"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp" />
+
+
+</LinearLayout>

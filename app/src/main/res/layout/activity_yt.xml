@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".YtActivity">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/battery_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="battery_percentage"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/energy_efficiency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="energy efficiency"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/battery_consumption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Battery consumption"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/task_queueing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="task queueing : "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/video_data_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="video data size : "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/net_data_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Net Data Size :"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/videoLinkEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter video link here"
+        android:inputType="text"
+        android:maxLines="1" />
+
+
+    <Button
+        android:id="@+id/start_stream_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Stream"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/decisionEngineStartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:text="Start Decision Engine"
+        android:textSize="18sp" />
+
+</LinearLayout>
